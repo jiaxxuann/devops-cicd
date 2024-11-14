@@ -7,7 +7,7 @@ name: Java CCID with Maven # name [optional] - is displayed on your repos action
 on: # on [required] - name of GitHub event that triggers the workflow
   push: 
     branches: ["main"] # currently working on 1 branch
-  pull_requesnt:
+  pull_request:
     branches: ["main"]
 
 # what are the things to be done
