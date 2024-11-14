@@ -1,0 +1,14 @@
+### 1. DEFINING WORKFLOW ###
+### 2. CORE COMPONENTS ###
+name: Java CCID with Maven # name [optional] - is displayed on your repos action page
+
+### 3. EVENTS / TRIGGERS ###
+### 4. WORKFLOW EXECUTION ###
+on: # on [required] - name of GitHub event that triggers the workflow
+  push: 
+    branches: ["main"] # currently working on 1 branch
+  pull_requesnt:
+    branches: ["main"]
+
+# what are the things to be done
+jobs: 
