@@ -36,7 +36,7 @@ jobs: # jobs [required] - one or more jobs, sequence of tasks (steps)
           path: target
 
   test:
-    needs: build
+    needs: build2
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
